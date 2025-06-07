@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Voice Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>Meet Gemini – Your AI Voice Assistant</h1>
+      <p>Speak naturally, and Gemini will help you get things done effortlessly.</p>
+
+      <!-- Voice Assistant Start Button -->
+      <button id="start-btn">🎤 Start Talking</button>
+
+      <!-- Div to display the assistant's response -->
+      <div id="response"></div>
+    </div>
+
+    <div class="image">
+      <img src="{{ url_for('static', filename='voice-assistant-landing-page-voice-recognition-illustration_176516-643.avif') }}" 
+           alt="Voice Assistant Illustration">
+    </div>
+  </div>
+
+  <!-- Link your JS script -->
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
