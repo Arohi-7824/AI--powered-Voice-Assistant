@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Voice Assistant - Gemini
 
 An AI voice assistant web application that enables natural, hands-free interactions using advanced speech recognition and synthesis. Powered by Google Gemini API, it provides intelligent, real-time responses to user queries.
@@ -38,3 +39,6 @@ An AI voice assistant web application that enables natural, hands-free interacti
     python app.py
 
 5. Open your browser and visit http://localhost:5000.
+
+# AI--powered-Voice-Assistant
+An AI voice assistant web application that enables natural, hands-free interactions using advanced speech recognition and synthesis. Powered by Google Gemini API, it provides intelligent, real-time responses to user queries.
