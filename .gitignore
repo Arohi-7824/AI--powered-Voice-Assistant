@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask stuff
+instance/
+*.db
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# node_modules if you have frontend tooling
+node_modules/
+
+# Static files cache or build output
+/static/build/
+/static/dist/
